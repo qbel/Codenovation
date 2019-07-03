@@ -204,7 +204,7 @@ button:hover {
 }
 
 .bg-banner-two {
-  background: url(../images/background/top.jpg) no-repeat;
+  background: url(../images/background/banner-bg-two.jpg) no-repeat;
   background-size: cover;
   background-position: right center;
 }
