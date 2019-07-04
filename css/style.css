@@ -202,6 +202,11 @@ button:hover {
   background-size: cover;
   background-position: center center;
 }
+.bg-banner-oneA {
+  background: url(../images/background/hack.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .bg-banner-two {
   background: url(../images/background/top.jpg) no-repeat;
@@ -3450,3 +3455,42 @@ ul.pagination .active a {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+.registration .serv-block {
+  position: relative;
+  padding: 50px 4%;
+}
+
+.registration .serv-block [class*=col-]:first-child {
+  /* border-right: 1px solid #f69351; */
+  /* border-bottom: 1px solid #f69351; */
+}
+
+.registration .serv-block [class*=col-]:nth-child(2) {
+  /* border-bottom: 1px solid #f69351; */
+}
+
+.registration .serv-block [class*=col-]:nth-child(3) {
+  /* border-right: 1px solid #f69351; */
+}
+
+.registration .serv-block .serv-item {
+  /* padding: 20px; */
+  padding-left: 10px;
+  /* margin-top:20px; */
+  text-align: center;
+}
+
+.registration .serv-block .serv-item i, .registration .serv-block .serv-item h5 {
+  color: #fff;
+}
+
+.registration .serv-block .serv-item i {
+  font-size: 3.25rem;
+  margin-bottom: 10px;
+}
+
+.registration .serv-block .serv-item h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
