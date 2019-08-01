@@ -207,9 +207,18 @@ button:hover {
   background-size: cover;
   background-position: center center;
 }
-
+.bg-banner-oneB {
+  background: url(../images/background/tech.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-banner-oneC {
+  background: url(../images/background/hack.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 .bg-banner-two {
-  background: url(../images/background/banner-bg-two.jpg) no-repeat;
+  background: url(../images/background/top.jpg) no-repeat;
   background-size: cover;
   background-position: right center;
 }
@@ -932,14 +941,30 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 33px;
   display: inline-block;
 }
-
+.banner .block .timer2 .syotimer-cell {
+  margin-right: 25px;
+  margin-bottom: 33px;
+  display: inline-block;
+}
+.banner .block .timer3 .syotimer-cell {
+  margin-right: 25px;
+  margin-bottom: 33px;
+  display: inline-block;
+}
 @media (max-width: 480px) {
   .banner .block .timer .syotimer-cell {
     margin-right: 10px;
     margin-bottom: 20px;
   }
+.banner .block .timer2 .syotimer-cell {
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
-
+.banner .block .timer3 .syotimer-cell {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+}
 .banner .block .timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
   font-family: "Montserrat", sans-serif;
@@ -954,9 +979,42 @@ select.form-control:not([size]):not([multiple]) {
   border-radius: 100%;
   box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
 }
-
+.banner .block .timer2 .syotimer-cell .syotimer-cell__value {
+  min-width: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  line-height: 77px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #7c7491;
+  margin-bottom: 8px;
+  border-radius: 100%;
+  box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.banner .block .timer3 .syotimer-cell .syotimer-cell__value {
+  min-width: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  line-height: 77px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #7c7491;
+  margin-bottom: 8px;
+  border-radius: 100%;
+  box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
+}
 @media (max-width: 480px) {
   .banner .block .timer .syotimer-cell .syotimer-cell__value {
+    font-size: 30px;
+  }
+  .banner .block .timer2 .syotimer-cell .syotimer-cell__value {
+    font-size: 30px;
+  }
+  .banner .block .timer3 .syotimer-cell .syotimer-cell__value {
     font-size: 30px;
   }
 }
@@ -969,7 +1027,22 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
-
+.banner .block .timer2 .syotimer-cell .syotimer-cell__unit {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.banner .block .timer3 .syotimer-cell .syotimer-cell__unit {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
 .banner .block h1 {
   text-transform: uppercase;
   font-size: 5.5rem;
@@ -1708,8 +1781,17 @@ select.form-control:not([size]):not([multiple]) {
   margin-top: 60px;
   margin-bottom: 35px;
 }
-
+.ticket-feature .block .timer2 {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
 .ticket-feature .block .timer .syotimer-cell {
+  margin-right: 25px;
+  margin-bottom: 33px;
+  display: inline-block;
+}
+.ticket-feature .block .timer2 .syotimer-cell {
   margin-right: 25px;
   margin-bottom: 33px;
   display: inline-block;
@@ -1717,6 +1799,10 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 480px) {
   .ticket-feature .block .timer .syotimer-cell {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .ticket-feature .block .timer2 .syotimer-cell {
     margin-right: 10px;
     margin-bottom: 20px;
   }
@@ -1739,9 +1825,48 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 8px;
   border-radius: 100%;
 }
-
+.ticket-feature .block .timer2 .syotimer-cell .syotimer-cell__value {
+  min-width: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  background-clip: content-box;
+  background: rgba(255, 255, 255, 0.26);
+  margin-bottom: 8px;
+  border-radius: 100%;
+}
+.ticket-feature .block .timer3 .syotimer-cell .syotimer-cell__value {
+  min-width: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  background-clip: content-box;
+  background: rgba(255, 255, 255, 0.26);
+  margin-bottom: 8px;
+  border-radius: 100%;
+}
 @media (max-width: 480px) {
   .ticket-feature .block .timer .syotimer-cell .syotimer-cell__value {
+    font-size: 30px;
+  }
+  .ticket-feature .block .timer2 .syotimer-cell .syotimer-cell__value {
+    font-size: 30px;
+  }
+  .ticket-feature .block .timer3 .syotimer-cell .syotimer-cell__value {
     font-size: 30px;
   }
 }
@@ -1754,7 +1879,22 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
-
+.ticket-feature .block .timer2 .syotimer-cell .syotimer-cell__unit {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.ticket-feature .block .timer3 .syotimer-cell .syotimer-cell__unit {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
 .ticket-feature .block-2 {
   position: relative;
   padding: 150px 10%;
@@ -3490,7 +3630,7 @@ ul.pagination .active a {
 }
 
 .registration .serv-block .serv-item h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -3507,8 +3647,9 @@ ul.pagination .active a {
 	/* border-bottom: 1px solid #ccc; */
 	/* color: ; */
 	padding: 30px;
-	font-size: 1.25em;
-	font-style: italic;
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+	/* font-style: italic; */
 	text-align: center;
 }
 .simple cite {
@@ -3520,7 +3661,7 @@ ul.pagination .active a {
 }
 .simple cite a {
 	color: #2d91c2;
-	font-style: italic;
+	/* font-style: italic; */
 	text-decoration: none;
 	font-size:.85em;
 }

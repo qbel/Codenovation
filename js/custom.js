@@ -37,11 +37,26 @@
         // -----------------------------
         $('.timer').syotimer({
             year: 2019,
-            month: 7,
-            day: 9,
+            month: 9,
+            day: 21,
             hour: 20,
             minute: 30
         });
+        $('.timer2').syotimer({
+            year: 2019,
+            month: 7,
+            day: 23,
+            hour: 20,
+            minute: 30
+        });
+        $('.timer3').syotimer({
+            year: 2019,
+            month: 11,
+            day: 22,
+            hour: 20,
+            minute: 30
+        });
+        
         // -----------------------------
         // To Top Init
         // -----------------------------
